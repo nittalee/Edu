@@ -11,7 +11,8 @@
   left:0;
   top:0;
   transition: all 0.2s;
-    filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
 }
 
 #bg_overlay:hover{
