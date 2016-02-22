@@ -5,13 +5,22 @@
   background-image: url(bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  width: 100%;
+  background-attachment: initial;
+  width: 103%;
   height: 100%;
+  margin-left: -3%;
   left:0;
   top:0;
   filter: grayscale(70%);
   -webkit-filter: grayscale(70%);
+  transition: all 0.45s;
+  filter
+}
+
+body#body:hover .bg {
+    background-position-x: 100%;
+    margin-left: 0;
+    transition: all 0.45s;
 }
 
 #bg_overlay:hover{
@@ -22,7 +31,7 @@
   width: 100%;
   height: 100%;
   opacity: 0.2;
-  transition: all 0.3s;
+  transition: all 0.45s;
 }
 #bg_overlay{
   background-color: #000;
@@ -32,8 +41,9 @@
   width: 100%;
   height: 100%;
   opacity: 0;
-  transition: all 0.3s;
+  transition: all 0.45s;
 }
+
 .card{
     position: relative;
     top: 400px;
@@ -43,7 +53,12 @@
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
+    transition: all 0.2s;
+}
 
+.card:hover {
+    padding: 40px 100px;
+    transition: all 0.2s;
 }
 
 .title{
