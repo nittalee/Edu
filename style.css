@@ -10,9 +10,8 @@
   height: 100%;
   left:0;
   top:0;
-  transition: all 0.2s;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
+  filter: grayscale(70%);
+  -webkit-filter: grayscale(70%);
 }
 
 #bg_overlay:hover{
@@ -96,7 +95,7 @@
 }
 
 .table01 tr:hover{
-  background-color: #ea0b0b;
+  background-color: #770707;
   cursor: default;
 }
 
